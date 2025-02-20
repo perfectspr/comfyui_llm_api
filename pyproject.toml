@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "comfyui_llm_api"
-version = "0.0.1"
+version = "0.0.2"
 description = "A ComfyUI extension that provides nodes for interacting with OpenAI-compatible Large Language Model (LLM) APIs, supporting both text-only and multimodal (image+text) prompts"
 authors = [
   {name = "Peter Sun", email = "pengrui.sun@outlook.com"}
