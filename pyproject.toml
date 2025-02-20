@@ -5,13 +5,25 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "comfyui_llm_api"
 version = "0.0.1"
-description = "Comfyui LLM API Nodes"
+description = "A ComfyUI extension that provides nodes for interacting with OpenAI-compatible Large Language Model (LLM) APIs, supporting both text-only and multimodal (image+text) prompts"
 authors = [
   {name = "Peter Sun", email = "pengrui.sun@outlook.com"}
 ]
 readme = "README.md"
 license = {text = "MIT license"}
-classifiers = []
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 dependencies = [
     "requests>=2.31.0",  # For making HTTP requests to LLM APIs
     "python-dotenv>=1.0.0",  # For loading API keys from environment variables
