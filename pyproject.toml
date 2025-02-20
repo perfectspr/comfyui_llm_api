@@ -13,7 +13,9 @@ readme = "README.md"
 license = {text = "MIT license"}
 classifiers = []
 dependencies = [
-
+    "requests>=2.31.0",  # For making HTTP requests to LLM APIs
+    "python-dotenv>=1.0.0",  # For loading API keys from environment variables
+    "pydantic>=2.0.0",  # For data validation
 ]
 
 [project.optional-dependencies]

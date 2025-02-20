@@ -5,6 +5,8 @@ A ComfyUI extension that provides nodes for interacting with OpenAI-compatible L
 > [!NOTE]
 > This projected was created with a [cookiecutter](https://github.com/Comfy-Org/cookiecutter-comfy-extension) template. It helps you start writing custom nodes without worrying about the Python setup.
 
+![Screenshot](docs/screenshot.webp)
+
 ## Quickstart
 
 1. Install [ComfyUI](https://docs.comfy.org/get_started).
@@ -77,9 +79,9 @@ If you wish to share this custom node with others in the community, you can publ
 
 You need to make an account on https://registry.comfy.org and create an API key token.
 
--   [ ] Go to the [registry](https://registry.comfy.org). Login and create a publisher id (everything after the `@` sign on your registry profile).
--   [ ] Add the publisher id into the pyproject.toml file.
--   [ ] Create an api key on the Registry for publishing from Github. [Instructions](https://docs.comfy.org/registry/publishing#create-an-api-key-for-publishing).
--   [ ] Add it to your Github Repository Secrets as `REGISTRY_ACCESS_TOKEN`.
+-   [x] Go to the [registry](https://registry.comfy.org). Login and create a publisher id (everything after the `@` sign on your registry profile).
+-   [x] Add the publisher id into the pyproject.toml file.
+-   [x] Create an api key on the Registry for publishing from Github. [Instructions](https://docs.comfy.org/registry/publishing#create-an-api-key-for-publishing).
+-   [x] Add it to your Github Repository Secrets as `REGISTRY_ACCESS_TOKEN`.
 
 A Github action will run on every git push. You can also run the Github action manually. Full instructions [here](https://docs.comfy.org/registry/publishing). Join our [discord](https://discord.com/invite/comfyorg) if you have any questions!
