@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "comfyui_llm_api"
-version = "0.0.2"
+version = "0.0.3"
 description = "A ComfyUI extension that provides nodes for interacting with OpenAI-compatible Large Language Model (LLM) APIs, supporting both text-only and multimodal (image+text) prompts"
 authors = [
   {name = "Peter Sun", email = "pengrui.sun@outlook.com"}
@@ -45,6 +45,7 @@ dev = [
 [project.urls]
 bugs = "https://github.com/perfectspr/comfyui_llm_api/issues"
 homepage = "https://github.com/perfectspr/comfyui_llm_api"
+Repository = "https://github.com/perfectspr/comfyui_llm_api"
 
 
 [tool.comfy]
